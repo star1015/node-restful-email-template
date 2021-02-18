@@ -16,6 +16,7 @@
 
 
 ## Instructions
+```
 1. cd node-restful-email-template
    mv .env.example .env
 2. Config .env such as dbname, dbusername, dbpassword and etc.
@@ -23,3 +24,4 @@
 4. npm install
 5. npm run db
 6. node bin/www
+```
