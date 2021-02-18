@@ -1,1 +1,1 @@
-# node-restful-email-template
+Email Template api.
