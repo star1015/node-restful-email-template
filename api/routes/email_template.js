@@ -7,7 +7,7 @@ let {
 
 
 /**
- * If API url contains '/email-template' then, dive into here.
+ * If API url contains '/email_template' then, dive into here.
  * 
  * ex: https://localhost:3006/api/email-template/create
  */
