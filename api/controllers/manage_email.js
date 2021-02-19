@@ -33,7 +33,7 @@ module.exports = {
           });
           
           // Send it to the user as email.
-          .......
+          // .......
 
        
           res.send((JSON.parse(strBody)));
