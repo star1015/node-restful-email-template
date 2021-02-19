@@ -5,11 +5,11 @@ const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
 
 /**
- * This is just an example of User data (receiver below). It should be generated in the Users table.
+ * This is just an example of User data (const receiver below). It should be generated in the Users table.
  * Also, I think, merge_tags table should be in the database, and when backend parsing the email template, 
- * We should get all merge tags and compare all of them with the template, and replace them with real values.
+ * We should get all merge tags or related merge tags and compare all of them with the template, and replace them with real values.
  * 
- * I had just imagined all of them were in here.
+ * I had just imagined all of them such as Users and merge_tags table were in here.
  */
 
 const merge_tags = ["{{first_name}}", "{{last_name"];
