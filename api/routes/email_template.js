@@ -9,7 +9,7 @@ let {
 /**
  * If API url contains '/email_template' then, dive into here.
  * 
- * ex: https://localhost:3006/api/email-template/create
+ * ex: https://localhost:3006/api/email_template/create
  */
 router.get("/get-all", email_template.list);
 router.get("/get/:id", email_template.get);
