@@ -32,6 +32,10 @@ module.exports = {
                 strBody.replace(item, receiver.first_name);
           });
           
+          // Send it to the user as email.
+          .......
+
+       
           res.send((JSON.parse(strBody)));
       })
       .catch(error => res.send({ status: false, error: error }));
